@@ -1,0 +1,91 @@
+.prettyline {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+.register {
+    padding: 20px 0 0 42px;
+    width:35em;
+    height: 45em;
+    border:1px solid #777;
+}
+
+.register .row label {
+    width: 10em;
+}
+
+.validate {
+  width: 200px;
+  margin: 0 0 0 200px;
+  color: red;
+
+
+}
+
+.register .row input{
+    width: 20em;
+    margin:0 20px 0 0;
+
+}
+.row label,input {
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin:0 35px 0 0;
+    float: right;
+}
+
+.details{
+
+  width:400px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+
+}
+
+.details p{
+  font-size: 1em;
+  padding: 5px;
+  width: 50%;
+
+}
+
+.cart{ 
+  width: 80%;
+}
+
+.cart th{
+
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #00ccff;
+}
+
+th,td{
+  padding:5px;  
+  border: 1px solid black;
+
+}
+
+.remove td {
+
+  border:none;
+}
+
+
+
+
+
+
+
+
+
+/* Color line credit to ninjamonk: [[http://bootsnipp.com/snippets/featured/mix-amp-match-login]]*/
